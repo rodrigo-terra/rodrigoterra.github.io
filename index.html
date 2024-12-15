@@ -44,7 +44,9 @@
       </ul>
     </nav>
     <div class="header__brand">
-      <img class="brand__logo" src="assets/images/logo.png" alt="Logo RT">
+      <a href="#home">
+        <img class="brand__logo" src="assets/images/logo.png" alt="Logo RT">
+      </a>
     </div>
     <div class="header__toggle">
       <i id="toggleTheme" class="bi bi-sun"></i>
@@ -78,18 +80,18 @@
       </li>
     </ul>
   </nav>
-  <main>
+  <main id="home">
     <div class="main__content1">
       <h1><b>Soluções Criativas &</b> Desenvolvimento Front-end</h1>
       <p>Rodrigo Terra, Londrina-PR, Desenvolvedor WEB.</p>
       <ul class="menu menu--social">
         <li>
-          <a class="menu__link" href="">
+          <a class="menu__link" href="https://github.com/rodrigo-terra">
             <i class="menu__icon bi bi-github"></i>
           </a>
         </li>
         <li>
-          <a class="menu__link" href="">
+          <a class="menu__link" href="www.linkedin.com/in/rodrigo93terra">
             <i class="menu__icon bi bi-linkedin"></i>
           </a>
         </li>
@@ -238,6 +240,113 @@
         </button>  
       </a>
     </div>
+  </section>
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/avatar.jpg" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Meu nome é Rodrigo Terra, sou bacharel em Biomedicina e atualmente curso Ciências da Computação, em transição para a área de tecnologia. Estou me especializando em desenvolvimento web front-end, com foco em HTML, CSS e JavaScript, participando de bootcamps e projetos na DIO.io. Minha dedicação, organização e habilidades interpessoais me impulsionam a colaborar em equipes e enfrentar desafios no desenvolvimento de soluções tecnológicas.
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Básico | Espanhol: Básico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="www.linkedin.com/in/rodrigo93terra" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          
+          <h4><i class="bi bi-mortarboard"></i> Bacharelado em Biomedicina</h4>
+          <span>Abr 2019 - Dez 2022</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Universidade Unopar</span>
+          </div>
+          <br>
+
+          <h4><i class="bi bi-mortarboard"></i> Bacharelado em Ciências da Computação</h4>
+          <span>Set 2024 - Atualmente</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Gran Faculdades</span>
+          </div>
+
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Assistente</h4>
+          <span>Dechra Brasil. Jan 2013 - Mar 2023</span>
+          <span>Experiência em inspeção de materiais, desenvolvimento de documentos técnicos e controle de qualidade em processos produtivos. Atuação com sistemas de gestão integrados (ERP) para rastreamento de produtos e realização de testes químicos para garantir a conformidade com os padrões estabelecidos.
+          </span>
+          <ul class="about__list">
+            <li class="about__item">Inspeção e liberação de materiais e matérias-primas;</li>
+            <li class="about__item">Desenvolvimento e atualização de documentos técnicos;</li>
+            <li class="about__item">Atualização de status no ERP.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Excel Avançado</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Ninja do Excel. Fev 2022. 40h.
+              </p>
+              <p>
+                Experiência abrangente no uso de Excel, desde fundamentos até recursos avançados, incluindo fórmulas matemáticas, de texto e data, formatação condicional, gráficos e tabelas dinâmicas profissionais. Conhecimento em funções de referência, estatísticas, banco de dados e criação de macros, além de habilidades na construção de dashboards interativos e design de gráficos avançados. 
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>Formação de HTML Web Developer</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. Nov 2024. 21h.
+              </p>
+              <p>
+                Conhecimento em desenvolvimento web com HTML, abrangendo estruturação de páginas, semântica e acessibilidade. Habilidade em criar layouts responsivos e organizados, aplicando boas práticas para otimizar a usabilidade e o desempenho. Experiência no uso de tags apropriadas para diferentes elementos e na integração com CSS e JavaScript, garantindo projetos funcionais e visualmente atraentes.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>GFT Start #6 - Lógica de Programação</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Digital Innovation One. Out 2024. 47h.
+              </p>
+              <p>
+                Participação no bootcamp da DIO.me em parceria com a GFT, com foco nos princípios de desenvolvimento de softwares colaborativos. Foram abordados fundamentos de lógica de programação, operadores, estruturas de controle e funções, além de conceitos sobre estruturas de dados e objetos. O programa enfatizou boas práticas para construção de soluções eficientes e organizadas em programação.
+              </p>
+            </div>
+          </div>
+        </div>
   </section>
   <footer>
     <p>
